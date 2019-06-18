@@ -26,21 +26,23 @@ body {
     float: right;
     margin-right: 150px;
     opacity: 0;
-    transition: 3s;
+    transition: 5s;
 }
 
 .container .khoimes .mes1-scroll img {
     margin-bottom: 79px;
     margin-left: 150px;
     opacity: 1;
-    transition: 3s;
+    transition-delay: 1s;
+    transition: 2s;
 }
 
 .container .khoimes .mes2-scroll img {
     float: right;
     margin-right: 150px;
     opacity: 1;
-    transition: 3s;
+    transition: 5s;
+    transition-delay: 1s;
 }
 
 .photo {
@@ -69,6 +71,17 @@ body {
     justify-content: center;
     padding-top: 223px;
     padding-bottom: 160px;
+    opacity: 0;
+    transition: 3s;
+}
+
+.lacmatem1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 223px;
+    padding-bottom: 160px;
+    opacity: 1;
+    transition: 3s;
 }
 
 .video {
@@ -110,6 +123,7 @@ body {
     margin-bottom: 79px;
     margin-left: 150px;
     opacity: 1;
+    transition-delay: 1s;
     transition: 3s;
 }
 
@@ -118,6 +132,7 @@ body {
     margin-bottom: 79px;
     margin-right: 150px;
     opacity: 1;
+    transition-delay: 2s;
     transition: 3s;
 }
 
@@ -154,12 +169,21 @@ body {
     float: right;
     width: 610px;
     height: auto;
+    opacity: 0;
+    transition: 2s;
 }
 
-.noidung .phai .content .queto {
-    width: 500px;
-    margin-bottom: 149px;
-    margin-top: 30px;
+.noidung .phai .content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16pt;
+    font-family: VNF-Bodoni;
+    float: right;
+    width: 610px;
+    height: auto;
+    opacity: 1;
+    transition: 2s;
 }
 
 .khoimes3 {
@@ -170,14 +194,14 @@ body {
 .container .khoimes3 .mes6 img {
     margin-bottom: 70px;
     margin-left: 150px;
-    opacity: 1;
+    opacity: 0;
     transition: 3s;
 }
 
 .container .khoimes3 .mes7 img {
     float: right;
     margin-right: 150px;
-    opacity: 1;
+    opacity: 0;
     transition: 3s;
 }
 
@@ -207,17 +231,39 @@ body {
 div.tinnhan1 {
     position: absolute;
     top: 24%;
+    left: -25%;
+    transition: 3s
+}
+
+div.tinnhan11 {
+    position: absolute;
+    top: 24%;
     left: 25%;
+    transition: 3s
 }
 
 div.tinnhan2 {
     position: absolute;
     top: 28%;
+    right: -25%;
+    transition: 3s
+}
+
+div.tinnhan21 {
+    position: absolute;
+    top: 28%;
     right: 21%;
+    transition: 3s
 }
 
 div.queto3 {
+    margin-top: -250px;
+    transition: 2s
+}
+
+div.queto31 {
     margin-top: 100px;
+    transition: 2s
 }
 
 div.content3 {
@@ -233,13 +279,35 @@ div.anh2 {
     top: 100%;
     left: 19%;
     margin-bottom: 80px;
+    transition: 3s;
+    opacity: 0;
+}
+
+div.anh21 {
+    position: absolute;
+    top: 100%;
+    left: 19%;
+    margin-bottom: 80px;
+    transition: 3s;
+    opacity: 1;
 }
 
 div.anh3 {
     position: absolute;
     top: 100%;
+    right: -39%;
+    margin-bottom: 80px;
+    transition: 3s;
+    opacity: 0;
+}
+
+div.anh31 {
+    position: absolute;
+    top: 100%;
     right: 19%;
     margin-bottom: 80px;
+    transition: 3s;
+    opacity: 1;
 }
 
 div.content4 {
@@ -249,9 +317,34 @@ div.content4 {
     width: 700px;
     font-size: 16pt;
     font-family: VNF-Bodoni;
+    opacity: 0;
+    transition: 3s;
+}
+
+div.content41 {
+    position: absolute;
+    top: 157%;
+    margin-bottom: 80px;
+    width: 700px;
+    font-size: 16pt;
+    font-family: VNF-Bodoni;
+    opacity: 1;
+    transition: 3s;
 }
 
 div.anh4 {
+    position: absolute;
+    top: 177%;
+    right: -19%;
+    margin-bottom: 80px;
+    font-size: 16pt;
+    font-family: VNF-Bodoni;
+    transform: scale(1.2);
+    opacity: 0;
+    transition: 3s;
+}
+
+div.anh41 {
     position: absolute;
     top: 177%;
     right: 19%;
@@ -259,18 +352,40 @@ div.anh4 {
     font-size: 16pt;
     font-family: VNF-Bodoni;
     transform: scale(1.2);
+    opacity: 1;
+    transition: 3s;
 }
 
 div.tinnhan3 {
     position: absolute;
     top: 180%;
+    right: -30%;
+    transition: 3s;
+    opacity: 0;
+}
+
+div.tinnhan31 {
+    position: absolute;
+    top: 180%;
     right: 40%;
+    opacity: 1;
+    transition: 3s;
 }
 
 div.tinnhan4 {
     position: absolute;
     top: 187%;
+    left: -29%;
+    transition: 3s;
+    opacity: 0;
+}
+
+div.tinnhan41 {
+    position: absolute;
+    top: 187%;
     left: 19%;
+    opacity: 1;
+    transition: 3s;
 }
 
 div.anh5 {
@@ -283,6 +398,16 @@ div.tinnhan5 {
     position: absolute;
     left: 27%;
     top: 223%;
+    opacity: 0;
+    transition: 5s;
+}
+
+div.tinnhan51 {
+    position: absolute;
+    left: 27%;
+    top: 223%;
+    opacity: 1;
+    transition: 5s;
 }
 
 div.anh6 {
@@ -295,6 +420,14 @@ div.tinnhan6 {
     position: absolute;
     left: 43%;
     top: 276%;
+    transition: 3s;
+}
+
+div.tinnhan61 {
+    position: absolute;
+    left: 43%;
+    top: 330%;
+    transition: 3s;
 }
 
 div.kengang {
@@ -305,14 +438,32 @@ div.kengang {
 
 div.ten1 {
     position: absolute;
+    left: -30%;
+    top: 355%;
+    margin-bottom: 70px;
+    transition: 3s;
+}
+
+div.ten11 {
+    position: absolute;
     left: 30%;
     top: 355%;
     margin-bottom: 70px;
+    transition: 3s;
 }
 
 div.ten2 {
     position: absolute;
+    right: -30%;
+    top: 355%;
+    margin-bottom: 70px;
+    transition: 3s;
+}
+
+div.ten21 {
+    position: absolute;
     right: 30%;
     top: 355%;
     margin-bottom: 70px;
+    transition: 3s;
 }
