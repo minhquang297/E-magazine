@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/Emagazine/background.jpg);
+}
+
+.tieude {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    margin-bottom: 300px
+}
+
+.container .khoimes {
+    margin-bottom: 395px;
+}
+
+.container .khoimes .mes1 img {
+    margin-bottom: 79px;
+    margin-left: 150px;
+    opacity: 0;
+    transition: 3s;
+}
+
+.container .khoimes .mes2 img {
+    float: right;
+    margin-right: 150px;
+    opacity: 0;
+    transition: 3s;
+}
+
+.container .khoimes .mes1-scroll img {
+    margin-bottom: 79px;
+    margin-left: 150px;
+    opacity: 1;
+    transition: 3s;
+}
+
+.container .khoimes .mes2-scroll img {
+    float: right;
+    margin-right: 150px;
+    opacity: 1;
+    transition: 3s;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    transition: 0.8s;
+    transform: scale(1.4);
+}
+
+.photo-scale1 {
+    display: flex;
+    justify-content: center;
+    transition: 0.8s;
+    transform: scale(1.3)
+}
+
+.photo-scale2 {
+    display: flex;
+    justify-content: center;
+    transition: 0.8s;
+    transform: scale(1.2)
+}
+
+.lacmatem {
+    display: flex;
+    justify-content: center;
+    padding-top: 223px;
+    padding-bottom: 160px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    transform: scale(1.2);
+}
+
+.text1 {
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 16pt;
+    font-family: VNF-Bodoni;
+    margin-top: 131px;
+    margin-bottom: 131px;
+}
+
+.container .khoimes2 .mes3 img {
+    margin-bottom: 79px;
+    margin-left: 150px;
+    opacity: 0;
+    transition: 3s;
+}
+
+.container .khoimes2 .mes4 img {
+    float: right;
+    margin-bottom: 79px;
+    margin-right: 150px;
+    opacity: 0;
+    transition: 3s;
+}
+
+.container .khoimes2 .mes5 img {
+    margin-left: 150px;
+    opacity: 0;
+    transition: 3s;
+}
+
+.container .khoimes2 .mes3-scroll img {
+    margin-bottom: 79px;
+    margin-left: 150px;
+    opacity: 1;
+    transition: 3s;
+}
+
+.container .khoimes2 .mes4-scroll img {
+    float: right;
+    margin-bottom: 79px;
+    margin-right: 150px;
+    opacity: 1;
+    transition: 3s;
+}
+
+.container .khoimes2 .mes5-scroll img {
+    margin-left: 150px;
+    opacity: 1;
+    transition: 3s;
+}
+
+.khungnoidung {
+    display: flex;
+    justify-content: center;
+}
+
+.noidung {
+    width: 1544px;
+    margin-top: 140px;
+}
+
+.noidung .trai {
+    float: left;
+}
+
+.noidung .trai .bonmuahanoi img {
+    width: 878px;
+}
+
+.noidung .phai .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16pt;
+    font-family: VNF-Bodoni;
+    float: right;
+    width: 610px;
+    height: auto;
+}
+
+.noidung .phai .content .queto {
+    width: 500px;
+    margin-bottom: 149px;
+    margin-top: 30px;
+}
+
+.khoimes3 {
+    margin-top: 80px;
+    margin-bottom: 130px;
+}
+
+.container .khoimes3 .mes6 img {
+    margin-bottom: 70px;
+    margin-left: 150px;
+    opacity: 1;
+    transition: 3s;
+}
+
+.container .khoimes3 .mes7 img {
+    float: right;
+    margin-right: 150px;
+    opacity: 1;
+    transition: 3s;
+}
+
+.container .khoimes3 .mes6-scroll img {
+    margin-bottom: 70px;
+    margin-left: 150px;
+    opacity: 1;
+    transition: 3s;
+}
+
+.container .khoimes3 .mes7-scroll img {
+    float: right;
+    margin-right: 150px;
+    opacity: 1;
+    transition: 3s;
+}
