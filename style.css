@@ -4,6 +4,11 @@ body {
     background-image: url(images/background.jpg);
 }
 
+@font-face {
+    font-family: VNF-Bodoni;
+    src: url(fonts/VNF-Bodoni\ Regular.ttf);
+}
+
 .tieude {
     display: flex;
     justify-content: center;
