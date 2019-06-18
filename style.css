@@ -194,3 +194,125 @@ body {
     opacity: 1;
     transition: 3s;
 }
+
+.chieuthuthang10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+div.tinnhan1 {
+    position: absolute;
+    top: 24%;
+    left: 25%;
+}
+
+div.tinnhan2 {
+    position: absolute;
+    top: 28%;
+    right: 21%;
+}
+
+div.queto3 {
+    margin-top: 100px;
+}
+
+div.content3 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 700px;
+    font-size: 16pt;
+    font-family: VNF-Bodoni;
+}
+
+div.anh2 {
+    position: absolute;
+    top: 100%;
+    left: 19%;
+    margin-bottom: 80px;
+}
+
+div.anh3 {
+    position: absolute;
+    top: 100%;
+    right: 19%;
+    margin-bottom: 80px;
+}
+
+div.content4 {
+    position: absolute;
+    top: 157%;
+    margin-bottom: 80px;
+    width: 700px;
+    font-size: 16pt;
+    font-family: VNF-Bodoni;
+}
+
+div.anh4 {
+    position: absolute;
+    top: 177%;
+    right: 19%;
+    margin-bottom: 80px;
+    font-size: 16pt;
+    font-family: VNF-Bodoni;
+    transform: scale(1.2);
+}
+
+div.tinnhan3 {
+    position: absolute;
+    top: 180%;
+    right: 40%;
+}
+
+div.tinnhan4 {
+    position: absolute;
+    top: 187%;
+    left: 19%;
+}
+
+div.anh5 {
+    position: absolute;
+    left: 19%;
+    top: 207%;
+}
+
+div.tinnhan5 {
+    position: absolute;
+    left: 27%;
+    top: 223%;
+}
+
+div.anh6 {
+    position: absolute;
+    left: 19%;
+    top: 267%
+}
+
+div.tinnhan6 {
+    position: absolute;
+    left: 43%;
+    top: 276%;
+}
+
+div.kengang {
+    position: absolute;
+    left: 35%;
+    top: 350%;
+}
+
+div.ten1 {
+    position: absolute;
+    left: 30%;
+    top: 355%;
+    margin-bottom: 70px;
+}
+
+div.ten2 {
+    position: absolute;
+    right: 30%;
+    top: 355%;
+    margin-bottom: 70px;
+}
