@@ -300,7 +300,7 @@ div.anh21 {
 div.anh3 {
     position: absolute;
     top: 100%;
-    right: 19%;
+    right: -29%;
     margin-bottom: 80px;
     transition: 3s;
     opacity: 0;
