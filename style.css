@@ -300,7 +300,7 @@ div.anh21 {
 div.anh3 {
     position: absolute;
     top: 100%;
-    right: -39%;
+    right: 19%;
     margin-bottom: 80px;
     transition: 3s;
     opacity: 0;
@@ -395,13 +395,11 @@ div.tinnhan41 {
 
 div.anh5 {
     position: absolute;
-    left: 19%;
     top: 207%;
 }
 
 div.tinnhan5 {
     position: absolute;
-    left: 27%;
     top: 223%;
     opacity: 0;
     transition: 5s;
@@ -409,7 +407,6 @@ div.tinnhan5 {
 
 div.tinnhan51 {
     position: absolute;
-    left: 27%;
     top: 223%;
     opacity: 1;
     transition: 5s;
@@ -417,7 +414,6 @@ div.tinnhan51 {
 
 div.anh6 {
     position: absolute;
-    left: 19%;
     top: 267%
 }
 
@@ -437,7 +433,6 @@ div.tinnhan61 {
 
 div.kengang {
     position: absolute;
-    left: 35%;
     top: 350%;
 }
 
